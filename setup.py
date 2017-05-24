@@ -7,13 +7,13 @@ name = lambda x : path.join(DIRNAME, x)
 
 setup(name='usbkill',
       version='1.0-rc.4',
-      description='usbkill is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.',
-      author='Hephaestos',
-      author_email='hephaestos@riseup.net',
+      description='killswitch is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.',
+      author='ashumallik',
+      author_email='mallikashu@outlook.com',
       license='GPLv3',
-      url='https://github.com/hephaest0s/usbkill',
+      url='https://github.com/ashumallik/KILL-SWTICH.PY/blob/master/KillSwitch.py',
       
-      packages=['usbkill'],
-      scripts=[name('install/usbkill')],
-      data_files=[ ('/etc/', [ name('install/usbkill.ini') ]) ]
+      packages=['killswitch'],
+      scripts=[name('install/killswitch')],
+      data_files=[ ('/etc/', [ name('install/killswitch.ini') ]) ]
      )
