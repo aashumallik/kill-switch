@@ -1,5 +1,5 @@
 # KILL-SWTICH.PY
-When FBI comes knocking on your door like they did with DPR (Silk Road) activate this and get your self out of the jail
+When FBI comes knocking on your door like they did with DPR (Ross Ulbricht (SILK ROAD) ) activate this and get your self out of the jail
 
 « usbkill » is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
 
