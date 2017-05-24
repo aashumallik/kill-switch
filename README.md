@@ -11,7 +11,6 @@ or
 
 sudo python3 killSwitch.py
 
-    In case the police or other thugs come busting in (or steal your laptop from you when you are at a public library, as happened to Ross). The police commonly uses a « mouse jiggler » to keep the screensaver and sleep mode from activating.
     You don’t want someone to add or copy documents to or from your computer via USB.
     You want to improve the security of your (encrypted) home or corporate server (e.g. Your Raspberry).
 
