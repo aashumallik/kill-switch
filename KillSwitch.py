@@ -437,7 +437,3 @@ def go():
 if __name__=="__main__":
 	go()
 
-    Contact GitHub API Training Shop Blog About 
-
-    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
-
