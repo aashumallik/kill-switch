@@ -15,5 +15,5 @@ setup(name='usbkill',
       
       packages=['killswitch'],
       scripts=[name('install/killswitch')],
-      data_files=[ ('/etc/', [ name('install/killswitch.ini') ]) ]
+      data_files=[ ('/etc/', [ name('install/install.ini') ]) ]
      )
