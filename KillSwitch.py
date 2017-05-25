@@ -21,16 +21,16 @@ DEVICE_RE = [ re.compile(".+ID\s(?P<id>\w+:\w+)"), re.compile("0x([0-9a-z]{4})")
 SETTINGS_FILE = '/etc/usbkill.ini'
 
 help_message = """
-usbkill is a simple program with one goal: quickly shutdown the computer when a USB is inserted or removed.
-Events are logged in /var/log/usbkill/kills.log
+KillSwitch is a simple program with one goal: quickly shutdown the computer when a USB is inserted or removed.
+Events are logged in /var/log/Killswitch/kills.log
 You can configure a whitelist of USB ids that are acceptable to insert and the remove.
 The USB id can be found by running the command 'lsusb'.
-Settings can be changed in /etc/usbkill.ini
+Settings can be changed in /etc/install.ini
 In order to be able to shutdown the computer, this program needs to run as root.
 Options:
   -h --help:         Show this help
      --version:      Print usbkill version and exit
-     --cs:           Copy program folder usbkill.ini to /etc/usbkill/usbkill.ini
+     --cs:           Copy program folder usbkill.ini to /etc/killswitch/install.ini
      --no-shut-down: Execute all the (destructive) commands you defined in usbkill.ini,
                        but don't turn off the computer
 """
