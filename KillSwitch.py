@@ -18,7 +18,7 @@ if CURRENT_PLATFORM.startswith("DARWIN"):
 DEVICE_RE = [ re.compile(".+ID\s(?P<id>\w+:\w+)"), re.compile("0x([0-9a-z]{4})") ]
 
 # Set the settings filename here
-SETTINGS_FILE = '/etc/usbkill.ini'
+SETTINGS_FILE = '/etc/killswitch.ini'
 
 help_message = """
 KillSwitch is a simple program with one goal: quickly shutdown the computer when a USB is inserted or removed.
@@ -29,9 +29,9 @@ Settings can be changed in /etc/install.ini
 In order to be able to shutdown the computer, this program needs to run as root.
 Options:
   -h --help:         Show this help
-     --version:      Print usbkill version and exit
-     --cs:           Copy program folder usbkill.ini to /etc/killswitch/install.ini
-     --no-shut-down: Execute all the (destructive) commands you defined in usbkill.ini,
+     --version:      Print killswitch version and exit
+     --cs:           Copy program folder killswitch.ini to /etc/killswitch/install.ini
+     --no-shut-down: Execute all the (destructive) commands you defined in killswitch.ini,
                        but don't turn off the computer
 """
 
