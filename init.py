@@ -1,1 +1,1 @@
-from .usbkill import go
+from .killswitch import go
