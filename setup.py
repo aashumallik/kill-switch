@@ -5,7 +5,7 @@ DIRNAME = path.dirname(path.realpath(__file__))
 
 name = lambda x : path.join(DIRNAME, x)
 
-setup(name='usbkill',
+setup(name='killswitch',
       version='1.0-rc.4',
       description='killswitch is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.',
       author='ashumallik',
