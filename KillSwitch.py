@@ -1,5 +1,3 @@
-__version__ = "1.0-rc.4"
-
 import re
 import subprocess
 import platform
@@ -324,14 +322,6 @@ def loop(settings):
 				kill_computer(settings)
 				
 		sleep(settings['sleep_time'])
-    def startup_checks():
-	# Splash
-	print("             _     _     _ _ _  \n" +
-			"            | |   | |   (_) | | \n" +
-			"  _   _  ___| |__ | |  _ _| | | \n" +
-			" | | | |/___)  _ \| |_/ ) | | | \n" +
-			" | |_| |___ | |_) )  _ (| | | | \n" +
-			" |____/(___/|____/|_| \_)_|\_)_)\n")
 
 	# Check arguments
 	args = sys.argv[1:]
@@ -436,4 +426,3 @@ def go():
 	
 if __name__=="__main__":
 	go()
-
